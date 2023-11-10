@@ -5,6 +5,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/white"
     tools:context=".LoginActivity">
     <com.google.android.material.textview.MaterialTextView
         android:id="@+id/msgBienvenido"
@@ -16,17 +17,21 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintVertical_bias="0.05"
         android:textAlignment="center"
-        android:textSize="25sp"
+        android:textSize="30sp"
+        android:textColor="@color/black"
         android:text="Bienvenido"/>
     <com.google.android.material.textfield.TextInputLayout
         android:id="@+id/emailLyout"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textColor="@color/black"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/msgBienvenido"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintVertical_bias="0.20"
+
         style="@style/Widget.Material3.AutoCompleteTextView.OutlinedBox.Dense"
         >
         <com.google.android.material.textfield.TextInputEditText
@@ -34,6 +39,8 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:inputType="textEmailAddress"
+            android:textStyle="bold"
+            android:textColor="@color/black"
             android:hint="Escriba su correo"/>
     </com.google.android.material.textfield.TextInputLayout>
     <com.google.android.material.textfield.TextInputLayout
@@ -52,6 +59,8 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:inputType="textPassword"
+            android:textStyle="bold"
+            android:textColor="@color/black"
             android:hint="Escriba su contraseña"/>
     </com.google.android.material.textfield.TextInputLayout>
     <Button

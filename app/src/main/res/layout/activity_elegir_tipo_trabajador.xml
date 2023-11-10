@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/fondo"
     android:layout_margin="16dp"
     tools:context=".ElegirTipoTrabajadorActivity">
 
@@ -11,6 +12,7 @@
         android:id="@+id/textView2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:background="@color/white"
         android:text="Seleccione el tipo de trabajador que desea registrar"
         android:textAlignment="center"
         android:textSize="25sp"
